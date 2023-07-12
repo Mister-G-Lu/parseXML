@@ -3,8 +3,8 @@ import pandas as pd
 
 #!/usr/bin/env python
 import xml.etree.ElementTree as et
-amphibXML = 'Amphib_demo_clean-XMLLTP.xml'
-mattsXML = 'MattsGoodSmokeandSBF-XMLLTP.xml'
+amphibXML = 'file1.xml'
+mattsXML = 'file2.xml'
 
 tree=et.parse(amphibXML)
 treeRoot = tree.getroot()
