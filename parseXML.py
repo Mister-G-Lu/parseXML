@@ -3,10 +3,10 @@ import pandas as pd
 
 #!/usr/bin/env python
 import xml.etree.ElementTree as et
-amphibXML = 'file1.xml'
-mattsXML = 'file2.xml'
+XML1 = 'file1.xml'
+XML2 = 'file2.xml'
 
-tree=et.parse(amphibXML)
+tree=et.parse(XML1)
 treeRoot = tree.getroot()
 list = []
 nothing_list = []
